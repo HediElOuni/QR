@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+    }
+    .cont-m {
+      width: 280px;
+      background-color: white;
+      border-radius: 15px;
+    }
+    img {
+      width: 260px;
+      border-radius: 15px;
+      margin: 10px;
+    }
+    h3 {
+      margin: 10px;
+      font-weight: 600;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cont-m">
+    <img src="images/image-qr-code.png">
+    <div class="cont-1">
+      <h3 style="font-weight: 600;text-align: center;">Improve your front-end skills by building projects</h1>
+      <p style="font-weight: 300;text-align: center;">Scan the QR code to visit Frontend Mentor and take your coding skills 
+        to the next level.</p>
+      </p>
+    </div>
+  </div>
+  <script>
+    let h = window.innerHeight - 16 + "px";
+    let body = document.body
+    body.style.height = h
+  </script>
+</body>
+</html>
