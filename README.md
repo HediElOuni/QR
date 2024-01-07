@@ -12,6 +12,11 @@
 
 ![](./images/screenshot.png)
 
+### Links
+
+- Solution URL: https://github.com/HediElOuni/QR
+- Live Site URL: https://hedielouni.github.io/QR/
+
 ## My process
 
 ### Built with
